@@ -1,0 +1,74 @@
+@import 'main';
+.detail-restaurant{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px 16px;
+    @media screen and (min-width: 650px) {
+        grid-template-columns: auto 1fr;
+    }
+    .detail-title
+    {
+        @media screen and (min-width: 650px){
+        grid-column-start: 1;
+        grid-column-end: 3;
+        }
+    }
+    .detail-poster {
+     width: 100%;
+     height:400px;
+     @media screen and (min-width: 650px){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+   }
+   .detail-deskripsi{
+    text-align: justify;
+    @media screen and (min-width: 650px){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    h3{
+        background-color: $color-main;
+        border-radius: 30px;
+        text-align: center;
+        color: $color-text;
+    }
+   }
+   .detail-info {
+        h4{
+            margin: 8px 0;
+        }
+        h3{
+            background-color: $color-main;
+            border-radius: 30px;
+            text-align: center;
+            color:$color-text;
+        }
+        @media screen and (min-width: 650px){
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+   .categori{
+    display: flex;
+    text-align: center;
+        p{
+            font-size: 12px;
+            font-weight: bolder;
+            color: white;
+            padding: 10px;
+            margin-left: 5px;
+            margin-top: 10px;
+            background-color: $color-sub;
+            border-radius: 30px;
+        }
+    }
+    @media screen and (min-width: 650px) {
+    .detail-restaurant{
+        grid-template-columns: auto 1fr;
+        }
+    }
+  }

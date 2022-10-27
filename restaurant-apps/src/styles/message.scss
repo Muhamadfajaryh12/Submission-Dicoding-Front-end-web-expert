@@ -1,0 +1,57 @@
+@import 'main';
+#message-eror{
+    display: none;
+}
+#message-eror.display{
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+    top: -250px;
+    i{
+        color: red;
+        margin-top: 10px;
+    }
+    #failed-btn{
+        background-color: $color-sub;
+        color: white;
+        font-weight: bold;
+        border: none;
+        min-height: 44px;
+        min-width: 44px;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+#container-message-review{
+    display: none;
+}
+#container-message-review.display{
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+    top: -250px;
+    i{
+        color: green;
+        margin-top: 10px;
+    }
+    #close-button{
+        background-color: $color-sub;
+        color: white;
+        font-weight: bold;
+        border: none;
+        min-height: 44px;
+        min-width: 44px;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+}

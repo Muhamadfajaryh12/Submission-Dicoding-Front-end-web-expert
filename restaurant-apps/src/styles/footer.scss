@@ -1,0 +1,13 @@
+@import 'main';
+
+footer{
+    background-color: $color-main;
+    padding: 16px;
+    position: sticky;
+    z-index: -1;
+    p{
+        text-align: center;
+        color: $color-text;
+        margin-top: 10px;
+    }
+}

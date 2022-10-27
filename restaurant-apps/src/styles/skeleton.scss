@@ -1,0 +1,28 @@
+@import 'main.scss';
+
+.card {
+    user-select: none;
+    border-radius: 15px;
+    .card-header{
+        padding: 10px;
+        #image{
+            width:100%;
+            height:300px;
+            border-radius: 15px;
+        }
+    }
+    .card-body{
+        width: 80%;
+        height: 350px;
+        .deskripsi{
+            width: 100%;
+            height: 300px;
+        }
+    }
+  }
+  .skeleton {
+    user-select: none;
+    background-color: #eeeeee;
+    color: #eeeeee;
+    margin-top: 10px;
+  }

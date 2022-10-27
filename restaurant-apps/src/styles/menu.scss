@@ -1,0 +1,20 @@
+@import 'main';
+.detail-menu{
+    h3{
+        color: $color-text;
+        text-align: center;
+        background-color: $color-main;
+        border-radius: 15px;
+    }
+    .container-menu{
+        display: flex;
+        flex-wrap: wrap;
+        .container-food,.container-drink{
+            margin: 20px;
+        }
+    }
+    @media screen and (min-width: 650px){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
